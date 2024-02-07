@@ -1,0 +1,4 @@
+username,email,password,first_name,last_name,phone_number,city,address,province/region,postal_code
+john_doe,john.doe@example.com,JohnDoe123,John,Doe,7778889999,Chicago,321 Oak St,IL,60601
+lisa_smith,lisa.smith@example.com,LisaPwd456,Lisa,Smith,5556667777,Los Angeles,456 Pine St,CA,90001
+adam_jones,adam.jones@example.com,PassAdam1,Adam,Jones,9990001111,Seattle,789 Elm St,WA,98101

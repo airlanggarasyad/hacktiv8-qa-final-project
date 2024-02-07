@@ -1,0 +1,30 @@
+{
+  "keywordFileContentHash": "1983F4E4228E4D50A3EA8AA9DE5080E7",
+  "keywordClasses": [
+    {
+      "name": "auth.CryptoUtils",
+      "keywordMethods": [
+        {
+          "name": "encrypt",
+          "parameters": [
+            {
+              "name": "text_to_encrypt",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

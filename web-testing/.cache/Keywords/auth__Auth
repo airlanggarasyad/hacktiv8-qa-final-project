@@ -1,0 +1,29 @@
+{
+  "keywordFileContentHash": "02FB8615C9CDF9E678FC3D608873207E",
+  "keywordClasses": [
+    {
+      "name": "auth.Auth",
+      "keywordMethods": [
+        {
+          "name": "encrypt",
+          "parameters": [
+            {
+              "name": "text_to_encrypt",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "javadocParsed": false
+}

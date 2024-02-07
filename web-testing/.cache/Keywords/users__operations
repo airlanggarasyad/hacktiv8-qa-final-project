@@ -1,0 +1,26 @@
+{
+  "keywordFileContentHash": "13D1B26FF3BE92ABC1E3B596490F43DA",
+  "keywordClasses": [
+    {
+      "name": "users.operations",
+      "keywordMethods": [
+        {
+          "name": "Register",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "Login",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "Logout",
+          "parameters": [],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}
