@@ -1,26 +1,46 @@
 {
-  "keywordFileContentHash": "13D1B26FF3BE92ABC1E3B596490F43DA",
+  "keywordFileContentHash": "A44E934D0EA1C5E09EF2AD868B1478E4",
   "keywordClasses": [
     {
-      "name": "users.operations",
+      "name": "users.Operations",
       "keywordMethods": [
         {
-          "name": "Register",
-          "parameters": [],
-          "javadoc": ""
-        },
-        {
           "name": "Login",
-          "parameters": [],
-          "javadoc": ""
+          "parameters": [
+            {
+              "name": "username",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            },
+            {
+              "name": "password",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ]
         },
         {
           "name": "Logout",
-          "parameters": [],
-          "javadoc": ""
+          "parameters": []
         }
       ]
     }
   ],
-  "javadocParsed": true
+  "javadocParsed": false
 }

@@ -17,24 +17,22 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-def encryptedText = CustomKeywords.'auth.CryptoUtils.encrypt'(password)
+class Users {
+	String username
+	String password
+	
+	Users(String username, String password) {
+		this.username = username
+		this.password = CustomKeywords.'auth.CryptoUtils.encrypt'(password)
+	}
+}
+
+Users currentUser = new Users(username, password)
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://advantageonlineshopping.com/#/')
+CustomKeywords.'users.Operations.Login'(currentUser.username, currentUser.password)
 
-WebUI.delay(4)
+CustomKeywords.'users.Operations.Logout'()
 
-WebUI.click(findTestObject('Object Repository/Auth/Page_Advantage Shopping/svgmenuUser'))
-
-WebUI.setText(findTestObject('Object Repository/Auth/Page_Advantage Shopping/input_username'), username)
-
-WebUI.setEncryptedText(findTestObject('Object Repository/Auth/Page_Advantage Shopping/input_password'), encryptedText)
-
-WebUI.click(findTestObject('Object Repository/Auth/Page_Advantage Shopping/button_SIGN IN'))
-
-WebUI.takeScreenshot()
-
-String username_value = WebUI.getText(findTestObject('Object Repository/Auth/Page_Advantage Shopping/span_airlangga'))
-
-assert username_value == username
+WebUI.closeBrowser()

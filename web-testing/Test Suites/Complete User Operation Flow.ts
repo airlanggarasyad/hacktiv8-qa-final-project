@@ -15,7 +15,7 @@
       <guid>682f1432-4b01-4327-b9ba-b9ae31f8df30</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/non-login/register</testCaseId>
+      <testCaseId>Test Cases/user/register</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>96a0c4c5-b1b8-4069-b5ee-3531cdabc19b</id>
@@ -91,7 +91,7 @@
       <guid>e4159026-0e6e-4a55-b0a0-cf15ad6edc4f</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/login/login</testCaseId>
+      <testCaseId>Test Cases/user/login</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>07e27e43-707a-4422-b2a4-160819c6a7e1</id>
@@ -119,7 +119,7 @@
       <guid>86aecf15-d16a-4f93-a63b-7edb27a2c6b1</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/login/logout</testCaseId>
+      <testCaseId>Test Cases/user/logout</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>07c0f3aa-dd3b-451d-847e-5ae6217cbdf2</id>
