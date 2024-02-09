@@ -36,16 +36,22 @@ public class Operations {
 		WebUI.click(findTestObject('Object Repository/Auth/Page_Advantage Shopping/button_SIGN IN'))
 
 		WebUI.takeScreenshot()
-
-		String username_value = WebUI.getText(findTestObject('Object Repository/Auth/Page_Advantage Shopping/span_airlangga'))
-
-		assert username_value == username
+		
+		def userElement = findTestObject('Object Repository/Auth/Page_Advantage Shopping/span_airlangga')
+		
+		if (WebUI.verifyElementPresent(userElement, 0)) {
+			String username_value = WebUI.getText(findTestObject('Object Repository/Auth/Page_Advantage Shopping/span_airlangga'))
+			
+			assert username_value == username
+		} else {
+			assert false
+		}
 	}
-	
+
 	@Keyword
 	def Logout() {
 		WebUI.click(findTestObject('Object Repository/Auth/Page_Advantage Shopping/span_airlangga'))
-		
+
 		WebUI.click(findTestObject('Object Repository/Auth/Page_Advantage Shopping/label_Sign out'))
 	}
 }

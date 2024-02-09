@@ -14,6 +14,15 @@
       </iterationEntity>
       <testDataId>Data Files/User Test Data</testDataId>
    </testDataLinks>
+   <testDataLinks>
+      <combinationType>ONE</combinationType>
+      <id>808e4e34-f08f-40d8-8af2-92c0ef284176</id>
+      <iterationEntity>
+         <iterationType>ALL</iterationType>
+         <value></value>
+      </iterationEntity>
+      <testDataId>Data Files/User Test Data</testDataId>
+   </testDataLinks>
    <variableLinks>
       <testDataLinkId>978102b6-121c-4e18-ac19-4d6b6573694b</testDataLinkId>
       <type>DATA_COLUMN</type>
@@ -73,6 +82,12 @@
       <type>DATA_COLUMN</type>
       <value>postal_code</value>
       <variableId>400a574a-b5a3-452c-8a15-29892a736d65</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId>978102b6-121c-4e18-ac19-4d6b6573694b</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>country</value>
+      <variableId>d1be84c4-8390-45e7-a2b4-6e8d91a95723</variableId>
    </variableLinks>
    <variable>
       <defaultValue>''</defaultValue>
@@ -143,5 +158,12 @@
       <id>400a574a-b5a3-452c-8a15-29892a736d65</id>
       <masked>false</masked>
       <name>postal_code</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>d1be84c4-8390-45e7-a2b4-6e8d91a95723</id>
+      <masked>false</masked>
+      <name>country</name>
    </variable>
 </TestCaseEntity>

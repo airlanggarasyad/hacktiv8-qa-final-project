@@ -1,5 +1,5 @@
 {
-  "keywordFileContentHash": "A44E934D0EA1C5E09EF2AD868B1478E4",
+  "keywordFileContentHash": "870878DDC028A99DC9AD87EAE6FCEB36",
   "keywordClasses": [
     {
       "name": "users.Operations",
@@ -33,14 +33,16 @@
                 "errorOnParsing": false
               }
             }
-          ]
+          ],
+          "javadoc": ""
         },
         {
           "name": "Logout",
-          "parameters": []
+          "parameters": [],
+          "javadoc": ""
         }
       ]
     }
   ],
-  "javadocParsed": false
+  "javadocParsed": true
 }

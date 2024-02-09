@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
    <description></description>
-   <name>Complete User Operation Flow</name>
+   <name>User Operations</name>
    <tag></tag>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
@@ -85,6 +85,12 @@
          <type>DATA_COLUMN</type>
          <value>postal_code</value>
          <variableId>400a574a-b5a3-452c-8a15-29892a736d65</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>d1be84c4-8390-45e7-a2b4-6e8d91a95723</variableId>
       </variableLink>
    </testCaseLink>
    <testCaseLink>

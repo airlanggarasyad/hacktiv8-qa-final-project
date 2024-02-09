@@ -19,6 +19,8 @@ import org.openqa.selenium.Keys as Keys
 
 import com.kms.katalon.util.CryptoUtil
 
+def encryptedText = CustomKeywords.'auth.CryptoUtils.encrypt'(password)
+
 WebUI.openBrowser('')
 
 WebUI.navigateToUrl(GlobalVariable.webURL + 'register')
@@ -28,8 +30,6 @@ WebUI.setText(findTestObject('Object Repository/Page_Advantage Shopping/input_us
 WebUI.click(findTestObject('Object Repository/Page_Advantage Shopping/label_Email'))
 
 WebUI.setText(findTestObject('Object Repository/Page_Advantage Shopping/input_emailRegisterPage'), email)
-
-def encryptedText = CustomKeywords.'auth.CryptoUtils.encrypt'(password)
 
 WebUI.setEncryptedText(findTestObject('Object Repository/Page_Advantage Shopping/input_passwordRegisterPage'), encryptedText)
 
@@ -41,8 +41,22 @@ WebUI.setText(findTestObject('Object Repository/Page_Advantage Shopping/input_la
 
 WebUI.setText(findTestObject('Object Repository/Page_Advantage Shopping/input_phone_numberRegisterPage'), phone_number)
 
+Integer countryCode = 0
+
+switch(country) {
+    case "Indonesia":
+        countryCode = 170;
+        break;
+    case "UK":
+        countryCode = 297;
+        break;
+    case "USA":
+        countryCode = 298;
+        break;
+}
+
 WebUI.selectOptionByValue(findTestObject('Object Repository/Page_Advantage Shopping/select_AfganistanAlbaniaAlgeriaAmerican Sam_3cef8a'),
-		'object:170', true)
+		'object:' + countryCode, true)
 
 WebUI.setText(findTestObject('Object Repository/Page_Advantage Shopping/input_cityRegisterPage'), city)
 
