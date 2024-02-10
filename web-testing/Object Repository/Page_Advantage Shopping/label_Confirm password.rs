@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>label_Confirm password</name>
+   <tag></tag>
+   <elementGuidId>0c63550e-2382-44d0-92cc-892a3ec2f90f</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='formCover']/div/div[2]/sec-view[2]/div/label</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>label</value>
+      <webElementGuid>2650d384-d12e-45b4-9bec-28cbb6fbb9c5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-ng-click</name>
+      <type>Main</type>
+      <value>labelClicked()</value>
+      <webElementGuid>2e030b1f-94d4-4f8a-8a6c-034a67f00df2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-ng-mouseout</name>
+      <type>Main</type>
+      <value>labelOut()</value>
+      <webElementGuid>9815ebce-8db5-406d-ac99-abf4051b3fb7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Confirm password</value>
+      <webElementGuid>0c57e8bf-1c29-4733-bdd4-b62ed0757465</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;formCover&quot;)/div[1]/div[@class=&quot;spliter&quot;]/sec-view[@class=&quot;ng-isolate-scope sec-view&quot;]/div[@class=&quot;inputContainer ng-scope&quot;]/label[1]</value>
+      <webElementGuid>7f2f04a9-950c-452d-b8f1-5666f5fd6ac0</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='formCover']/div/div[2]/sec-view[2]/div/label</value>
+      <webElementGuid>0144bcdb-e82f-41ad-9d72-d069a8070146</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/sec-view[2]/div/label</value>
+      <webElementGuid>2e7c5e47-7ec4-4c66-be9f-a945ddcee01c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//label[(text() = 'Confirm password' or . = 'Confirm password')]</value>
+      <webElementGuid>7a5a6d07-52ab-45cf-863d-239a6f4a939f</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

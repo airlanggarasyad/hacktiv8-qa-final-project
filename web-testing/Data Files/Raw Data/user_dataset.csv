@@ -1,0 +1,4 @@
+username,email,password,first_name,last_name,phone_number,city,address,province/region,postal_code,country
+agus_r,agus.r@example.com,Agus1234,Agus,Rahman,081234567890,DKI,Jalan Merdeka No. 123,Jakarta,10110,Indonesia
+lisa_smith,lisa.smith@example.com,LisaPwd456,Lisa,Smith,555-666-7777,Los Angeles,456 Pine St,CA,90001,USA
+adam_jones,adam.jones@example.com,PassAdam1,Adam,Jones,999-000-1111,London,789 Oxford St,London,W1D 1ER,UK

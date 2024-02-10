@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_CREATE NEW ACCOUNT</name>
+   <tag></tag>
+   <elementGuidId>7535121c-ff55-43e8-8ace-21aa008c153d</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//a[contains(text(),'CREATE NEW ACCOUNT')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>a.create-new-account.ng-scope</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>d2883ee0-ead9-4cb7-b0e2-c57ad892d22b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>javascript:void(0)</value>
+      <webElementGuid>ec1b426d-5ebe-42a6-ae32-9a7e33b03580</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>role</name>
+      <type>Main</type>
+      <value>link</value>
+      <webElementGuid>7cee9cbf-066e-407b-a16b-d6f9a2c37893</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>create-new-account ng-scope</value>
+      <webElementGuid>dfa4bae8-2013-418f-830c-9b3466608906</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>translate</name>
+      <type>Main</type>
+      <value>CREATE_NEW_ACCOUNT</value>
+      <webElementGuid>5a07bc5e-f485-4321-913b-7d081ac601ec</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-ng-click</name>
+      <type>Main</type>
+      <value>createNewAccount()</value>
+      <webElementGuid>22869486-89a0-4874-bf82-75d72c7e135c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>CREATE NEW ACCOUNT</value>
+      <webElementGuid>be357428-da91-4327-b5b7-b84506736cbc</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[@class=&quot;ng-scope&quot;]/login-modal[1]/div[@class=&quot;PopUp&quot;]/div[1]/div[@class=&quot;login ng-scope&quot;]/a[@class=&quot;create-new-account ng-scope&quot;]</value>
+      <webElementGuid>02b45812-70a9-4f8a-858c-50fa8c9cc418</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'CREATE NEW ACCOUNT')]</value>
+      <webElementGuid>5e47fee1-1231-48d8-a05b-923232f234ed</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>(//a[contains(@href, 'javascript:void(0)')])[2]</value>
+      <webElementGuid>5872a088-9fc1-434b-a0b6-b71a499cb849</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//a[2]</value>
+      <webElementGuid>2c92e3ea-8c89-40ee-b774-7fb5194023c8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = 'javascript:void(0)' and (text() = 'CREATE NEW ACCOUNT' or . = 'CREATE NEW ACCOUNT')]</value>
+      <webElementGuid>17e4ad62-4119-44ba-9867-445595e4ddd5</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

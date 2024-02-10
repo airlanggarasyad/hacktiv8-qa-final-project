@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>Checkout</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>3</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>true</rerunImmediately>
+   <testSuiteGuid>5a088ff9-f375-4322-9d0c-a3c51a671a3c</testSuiteGuid>
+   <testCaseLink>
+      <guid>945e0303-ab1f-43fa-b63e-c1cae812176a</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/transaction/Regular Check Out</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>554f4603-bef0-4961-9921-95bd676855cc</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/User Test Data</testDataId>
+      </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId>554f4603-bef0-4961-9921-95bd676855cc</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>username</value>
+         <variableId>c317e92f-914d-4816-b5a9-66f43119d62a</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>554f4603-bef0-4961-9921-95bd676855cc</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>password</value>
+         <variableId>281aa923-57d7-4330-9268-4b49a78dfdb8</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>524cedd0-ba43-4046-a647-c210fc21bd47</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/transaction/Checkout Without Login or Signup</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+</TestSuiteEntity>
