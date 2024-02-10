@@ -31,6 +31,8 @@ Users currentUser = new Users(username, password)
 
 WebUI.openBrowser('')
 
+WebUI.navigateToUrl(GlobalVariable.webURL)
+
 CustomKeywords.'users.Operations.Login'(currentUser.username, currentUser.password)
 
 CustomKeywords.'users.Operations.Logout'()

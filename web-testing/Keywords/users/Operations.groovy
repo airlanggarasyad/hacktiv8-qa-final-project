@@ -23,8 +23,6 @@ import internal.GlobalVariable
 public class Operations {
 	@Keyword
 	def Login(String username, String password) {
-		WebUI.navigateToUrl('https://advantageonlineshopping.com/#/')
-
 		WebUI.delay(4)
 
 		WebUI.click(findTestObject('Object Repository/Auth/Page_Advantage Shopping/svgmenuUser'))
@@ -36,12 +34,12 @@ public class Operations {
 		WebUI.click(findTestObject('Object Repository/Auth/Page_Advantage Shopping/button_SIGN IN'))
 
 		WebUI.takeScreenshot()
-		
+
 		def userElement = findTestObject('Object Repository/Auth/Page_Advantage Shopping/span_airlangga')
-		
+
 		if (WebUI.verifyElementPresent(userElement, 0)) {
 			String username_value = WebUI.getText(findTestObject('Object Repository/Auth/Page_Advantage Shopping/span_airlangga'))
-			
+
 			assert username_value == username
 		} else {
 			assert false

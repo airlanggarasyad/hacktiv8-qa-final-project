@@ -33,6 +33,41 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl(GlobalVariable.webURL)
 
+WebUI.waitForElementPresent(findTestObject('Object Repository/Transactions/Page_Advantage Shopping/label_Shop Now'), 20)
+
+WebUI.click(findTestObject('Object Repository/Transactions/Page_Advantage Shopping/label_Shop Now'))
+
+WebUI.click(findTestObject('Object Repository/Transactions/Page_Advantage Shopping/a_Beats Studio 2 Over-Ear Matte Black Headphones'))
+
+WebUI.click(findTestObject('Object Repository/Transactions/Page_Advantage Shopping/button_ADD TO CART'))
+
 CustomKeywords.'users.Operations.Login'(currentUser.username, currentUser.password)
+
+WebUI.click(findTestObject('Object Repository/Transactions/Page_Advantage Shopping/svgmenuCart'))
+
+WebUI.takeScreenshot()
+
+WebUI.click(findTestObject('Object Repository/Transactions/Page_Advantage Shopping/button_CHECKOUT (179.99)'))
+
+WebUI.click(findTestObject('Object Repository/Transactions/Page_Advantage Shopping/button_NEXT'))
+
+WebUI.setText(findTestObject('Object Repository/Transactions/Page_Advantage Shopping/input_safepay_username'), currentUser.username)
+
+WebUI.setEncryptedText(findTestObject('Object Repository/Transactions/Page_Advantage Shopping/input_safepay_password'), 
+    currentUser.password)
+
+WebUI.click(findTestObject('Object Repository/Transactions/Page_Advantage Shopping/button_PAY NOW'))
+
+WebUI.takeScreenshot()
+
+String orderNumber = WebUI.getText(findTestObject('Object Repository/Transactions/Page_Advantage Shopping/orderNumberSpan'))
+
+WebUI.click(findTestObject('Object Repository/Transactions/Page_Advantage Shopping/span_airlangga'))
+
+WebUI.click(findTestObject('Object Repository/Transactions/Page_Advantage Shopping/label_My orders'))
+
+WebUI.takeScreenshot()
+
+WebUI.verifyTextPresent(orderNumber, false)
 
 WebUI.closeBrowser()
