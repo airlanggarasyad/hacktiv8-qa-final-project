@@ -14,15 +14,6 @@
       </iterationEntity>
       <testDataId>Data Files/User Test Data</testDataId>
    </testDataLinks>
-   <testDataLinks>
-      <combinationType>ONE</combinationType>
-      <id>808e4e34-f08f-40d8-8af2-92c0ef284176</id>
-      <iterationEntity>
-         <iterationType>ALL</iterationType>
-         <value></value>
-      </iterationEntity>
-      <testDataId>Data Files/User Test Data</testDataId>
-   </testDataLinks>
    <variableLinks>
       <testDataLinkId>978102b6-121c-4e18-ac19-4d6b6573694b</testDataLinkId>
       <type>DATA_COLUMN</type>

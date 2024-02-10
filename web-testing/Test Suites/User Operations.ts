@@ -87,9 +87,9 @@
          <variableId>400a574a-b5a3-452c-8a15-29892a736d65</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
+         <testDataLinkId>96a0c4c5-b1b8-4069-b5ee-3531cdabc19b</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>country</value>
          <variableId>d1be84c4-8390-45e7-a2b4-6e8d91a95723</variableId>
       </variableLink>
    </testCaseLink>

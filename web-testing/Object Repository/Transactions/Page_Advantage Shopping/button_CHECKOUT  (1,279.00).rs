@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>button_ADD TO CART</name>
+   <name>button_CHECKOUT  (1,279.00)</name>
    <tag></tag>
-   <elementGuidId>f06a4f12-8391-4382-884e-f07988dd1d38</elementGuidId>
+   <elementGuidId>e97f0c61-9343-46fe-b080-2a126d48ef7f</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//button[@name='save_to_cart']</value>
+         <value>//button[@id='checkOutPopUp']</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>button[name=&quot;save_to_cart&quot;]</value>
+         <value>#checkOutPopUp</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,23 +22,23 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>07db7955-f437-4d10-a085-bd2783d8d9e8</webElementGuid>
+      <webElementGuid>d9bff7ee-663e-4855-bbb0-98b08c4b4705</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>checkOutPopUp</value>
+      <webElementGuid>2ec312a6-c337-478f-8f08-ebde14110e1a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>name</name>
       <type>Main</type>
-      <value>save_to_cart</value>
-      <webElementGuid>6df2a437-b347-4cd9-b197-fbb3f11d9a21</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>class</name>
-      <type>Main</type>
-      <value>roboto-medium ng-scope</value>
-      <webElementGuid>b8072741-1b09-4994-9f48-bb8719329d7d</webElementGuid>
+      <value>check_out_btn</value>
+      <webElementGuid>b30e9437-44f8-4ab9-ab2c-a761dbcdfb4a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,78 +46,70 @@
       <name>role</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>a5b4f8ad-b82c-44e6-a35f-fa6d91aa63ef</webElementGuid>
+      <webElementGuid>26f1bbda-2f2a-486b-b2e0-3de1201450fc</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>data-ng-class</name>
+      <name>class</name>
       <type>Main</type>
-      <value>{ disable : product.productStatus == &quot;OutOfStock&quot; } </value>
-      <webElementGuid>362d7f51-f7bc-4e9f-b927-89f7cbc7d605</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>translate</name>
-      <type>Main</type>
-      <value>ADD_TO_CART</value>
-      <webElementGuid>2e167d81-bdc3-4c4a-a4b1-b9a614b89774</webElementGuid>
+      <value>roboto-medium ng-binding</value>
+      <webElementGuid>97ec917d-bb97-4762-bedb-e3cb4ad8cc04</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>data-ng-click</name>
       <type>Main</type>
-      <value>addToCart(product.productStatus == 'OutOfStock')</value>
-      <webElementGuid>3107f943-42ed-4f42-99cd-437b6eada44a</webElementGuid>
+      <value>checkout($event)</value>
+      <webElementGuid>c128aeea-1e94-4405-8f37-e2575b2aff2d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>ADD TO CART</value>
-      <webElementGuid>58441531-9a54-4a0f-9eba-d956c343d63a</webElementGuid>
+      <value>CHECKOUT  ($1,279.00)</value>
+      <webElementGuid>c8a6e230-13b9-4965-b576-6f053627344e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;productProperties&quot;)/div[@class=&quot;fixedBtn&quot;]/button[@class=&quot;roboto-medium ng-scope&quot;]</value>
-      <webElementGuid>dd686cdf-ac26-4700-8ca1-185775abdcdb</webElementGuid>
+      <value>id(&quot;checkOutPopUp&quot;)</value>
+      <webElementGuid>cbe09dfd-7de7-46fd-a1d3-a5ed9bbcc6ea</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//button[@name='save_to_cart']</value>
-      <webElementGuid>3f1fefa6-64a8-4d2f-8c9d-b2541c7705b5</webElementGuid>
+      <value>//button[@id='checkOutPopUp']</value>
+      <webElementGuid>44e5776f-fff9-4951-a7bc-1e1405561a05</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='productProperties']/div[4]/button</value>
-      <webElementGuid>2d182413-f60a-402c-9dea-9302dcbc8a33</webElementGuid>
+      <value>//tool-tip-cart[@id='toolTipCart']/div/table/tfoot/tr[2]/td/button</value>
+      <webElementGuid>75ea64b1-c3d8-42db-831e-6ded5c089759</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[4]/button</value>
-      <webElementGuid>99340a4f-45a4-4d8b-a2ba-3982059853ca</webElementGuid>
+      <value>//td/button</value>
+      <webElementGuid>e3232544-b221-4dec-be15-bbdc3dca46a6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//button[@name = 'save_to_cart' and (text() = 'ADD TO CART' or . = 'ADD TO CART')]</value>
-      <webElementGuid>fe153c9a-3007-4c42-a03e-a5e91ea8d2b5</webElementGuid>
+      <value>//button[@id = 'checkOutPopUp' and @name = 'check_out_btn' and (text() = 'CHECKOUT  ($1,279.00)' or . = 'CHECKOUT  ($1,279.00)')]</value>
+      <webElementGuid>11ded068-122e-42ea-b329-266d5d14e333</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

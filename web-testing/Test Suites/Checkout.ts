@@ -39,4 +39,11 @@
          <variableId>281aa923-57d7-4330-9268-4b49a78dfdb8</variableId>
       </variableLink>
    </testCaseLink>
+   <testCaseLink>
+      <guid>524cedd0-ba43-4046-a647-c210fc21bd47</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/transaction/Checkout Without Login or Signup</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
 </TestSuiteEntity>
