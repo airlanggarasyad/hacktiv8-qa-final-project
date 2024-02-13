@@ -1,0 +1,88 @@
+1
+00:00:00,090 --> 00:00:00,122
+1. currentUser = new Users(username, password)
+
+2
+00:00:00,136 --> 00:00:00,988
+5. openBrowser("")
+
+3
+00:00:00,992 --> 00:00:03,303
+9. navigateToUrl(webURL)
+
+4
+00:00:03,303 --> 00:00:07,729
+13. waitForElementPresent(findTestObject("Object Repository/Transactions/Page_Advantage Shopping/label_Shop Now"), 20)
+
+5
+00:00:07,729 --> 00:00:07,995
+17. click(findTestObject("Object Repository/Transactions/Page_Advantage Shopping/label_Shop Now"))
+
+6
+00:00:07,995 --> 00:00:12,865
+21. click(findTestObject("Object Repository/Transactions/Page_Advantage Shopping/a_Beats Studio 2 Over-Ear Matte Black Headphones"))
+
+7
+00:00:12,865 --> 00:00:27,449
+25. click(findTestObject("Object Repository/Transactions/Page_Advantage Shopping/button_ADD TO CART"))
+
+8
+00:00:27,449 --> 00:00:36,447
+29. users.Operations.Login(username, password)
+
+9
+00:00:36,447 --> 00:00:36,706
+33. click(findTestObject("Object Repository/Transactions/Page_Advantage Shopping/svgmenuCart"))
+
+10
+00:00:36,706 --> 00:00:38,220
+37. takeScreenshot()
+
+11
+00:00:38,220 --> 00:00:38,479
+41. click(findTestObject("Object Repository/Transactions/Page_Advantage Shopping/button_CHECKOUT (179.99)"))
+
+12
+00:00:38,480 --> 00:00:41,358
+45. click(findTestObject("Object Repository/Transactions/Page_Advantage Shopping/button_NEXT"))
+
+13
+00:00:41,359 --> 00:00:42,297
+49. setText(findTestObject("Object Repository/Transactions/Page_Advantage Shopping/input_safepay_username"), username)
+
+14
+00:00:42,297 --> 00:00:42,909
+53. setEncryptedText(findTestObject("Object Repository/Transactions/Page_Advantage Shopping/input_safepay_password"), password)
+
+15
+00:00:42,910 --> 00:00:43,896
+57. click(findTestObject("Object Repository/Transactions/Page_Advantage Shopping/button_PAY NOW"))
+
+16
+00:00:43,896 --> 00:00:45,496
+61. takeScreenshot()
+
+17
+00:00:45,497 --> 00:00:45,736
+65. orderNumber = getText(findTestObject("Object Repository/Transactions/Page_Advantage Shopping/orderNumberSpan"))
+
+18
+00:00:45,736 --> 00:00:45,997
+69. click(findTestObject("Object Repository/Transactions/Page_Advantage Shopping/span_airlangga"))
+
+19
+00:00:45,997 --> 00:00:46,359
+73. click(findTestObject("Object Repository/Transactions/Page_Advantage Shopping/label_My orders"))
+
+20
+00:00:46,359 --> 00:00:47,565
+77. takeScreenshot()
+
+21
+00:00:47,566 --> 00:00:48,020
+81. verifyTextPresent(orderNumber, false)
+
+22
+00:00:48,021 --> 00:00:48,115
+85. closeBrowser()
+

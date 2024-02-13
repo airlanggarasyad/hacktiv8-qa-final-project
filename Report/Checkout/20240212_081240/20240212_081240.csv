@@ -1,0 +1,87 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Checkout,Chrome 121.0.0.0,,,12-02-2024 08:15:51,12-02-2024 08:18:22,2m - 31.145s,PASSED
+,,,,,,,
+Test Cases/transaction/Regular Check Out,Chrome 121.0.0.0,,,12-02-2024 08:15:51,12-02-2024 08:16:41,50.424s,PASSED
+"currentUser = new Users(username, password)",Chrome 121.0.0.0,,,12-02-2024 08:15:51,12-02-2024 08:15:51,0.043s,PASSED
+"openBrowser("""")",Chrome 121.0.0.0,,,12-02-2024 08:15:51,12-02-2024 08:15:52,0.850s,PASSED
+navigateToUrl(webURL),Chrome 121.0.0.0,,,12-02-2024 08:15:52,12-02-2024 08:15:55,2.308s,PASSED
+"waitForElementPresent(findTestObject(""Object Repository/Transactions/Page_Advantage Shopping/label_Shop Now""), 20)",Chrome 121.0.0.0,,,12-02-2024 08:15:55,12-02-2024 08:15:59,4.422s,PASSED
+"click(findTestObject(""Object Repository/Transactions/Page_Advantage Shopping/label_Shop Now""))",Chrome 121.0.0.0,,,12-02-2024 08:15:59,12-02-2024 08:15:59,0.266s,PASSED
+"click(findTestObject(""Object Repository/Transactions/Page_Advantage Shopping/a_Beats Studio 2 Over-Ear Matte Black Headphones""))",Chrome 121.0.0.0,,,12-02-2024 08:15:59,12-02-2024 08:16:04,4.869s,PASSED
+"click(findTestObject(""Object Repository/Transactions/Page_Advantage Shopping/button_ADD TO CART""))",Chrome 121.0.0.0,,,12-02-2024 08:16:04,12-02-2024 08:16:19,14.584s,PASSED
+"users.Operations.Login(username, password)",Chrome 121.0.0.0,,,12-02-2024 08:16:19,12-02-2024 08:16:28,8.998s,PASSED
+"click(findTestObject(""Object Repository/Transactions/Page_Advantage Shopping/svgmenuCart""))",Chrome 121.0.0.0,,,12-02-2024 08:16:28,12-02-2024 08:16:28,0.258s,PASSED
+takeScreenshot(),Chrome 121.0.0.0,,,12-02-2024 08:16:28,12-02-2024 08:16:30,1.514s,PASSED
+"click(findTestObject(""Object Repository/Transactions/Page_Advantage Shopping/button_CHECKOUT (179.99)""))",Chrome 121.0.0.0,,,12-02-2024 08:16:30,12-02-2024 08:16:30,0.259s,PASSED
+"click(findTestObject(""Object Repository/Transactions/Page_Advantage Shopping/button_NEXT""))",Chrome 121.0.0.0,,,12-02-2024 08:16:30,12-02-2024 08:16:33,2.879s,PASSED
+"setText(findTestObject(""Object Repository/Transactions/Page_Advantage Shopping/input_safepay_username""), username)",Chrome 121.0.0.0,,,12-02-2024 08:16:33,12-02-2024 08:16:34,0.939s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Transactions/Page_Advantage Shopping/input_safepay_password""), password)",Chrome 121.0.0.0,,,12-02-2024 08:16:34,12-02-2024 08:16:34,0.612s,PASSED
+"click(findTestObject(""Object Repository/Transactions/Page_Advantage Shopping/button_PAY NOW""))",Chrome 121.0.0.0,,,12-02-2024 08:16:34,12-02-2024 08:16:35,0.986s,PASSED
+takeScreenshot(),Chrome 121.0.0.0,,,12-02-2024 08:16:35,12-02-2024 08:16:37,1.600s,PASSED
+"orderNumber = getText(findTestObject(""Object Repository/Transactions/Page_Advantage Shopping/orderNumberSpan""))",Chrome 121.0.0.0,,,12-02-2024 08:16:37,12-02-2024 08:16:37,0.240s,PASSED
+"click(findTestObject(""Object Repository/Transactions/Page_Advantage Shopping/span_airlangga""))",Chrome 121.0.0.0,,,12-02-2024 08:16:37,12-02-2024 08:16:37,0.261s,PASSED
+"click(findTestObject(""Object Repository/Transactions/Page_Advantage Shopping/label_My orders""))",Chrome 121.0.0.0,,,12-02-2024 08:16:37,12-02-2024 08:16:38,0.362s,PASSED
+takeScreenshot(),Chrome 121.0.0.0,,,12-02-2024 08:16:38,12-02-2024 08:16:39,1.206s,PASSED
+"verifyTextPresent(orderNumber, false)",Chrome 121.0.0.0,,,12-02-2024 08:16:39,12-02-2024 08:16:39,0.455s,PASSED
+closeBrowser(),Chrome 121.0.0.0,,,12-02-2024 08:16:39,12-02-2024 08:16:39,0.094s,PASSED
+Video,Chrome 121.0.0.0,,,12-02-2024 08:16:41,12-02-2024 08:16:41,0.000s,PASSED
+,,,,,,,
+Test Cases/transaction/Regular Check Out,Chrome 121.0.0.0,,,12-02-2024 08:16:41,12-02-2024 08:17:26,44.032s,PASSED
+"currentUser = new Users(username, password)",Chrome 121.0.0.0,,,12-02-2024 08:16:41,12-02-2024 08:16:41,0.002s,PASSED
+"openBrowser("""")",Chrome 121.0.0.0,,,12-02-2024 08:16:41,12-02-2024 08:16:42,0.643s,PASSED
+navigateToUrl(webURL),Chrome 121.0.0.0,,,12-02-2024 08:16:42,12-02-2024 08:16:44,2.225s,PASSED
+"waitForElementPresent(findTestObject(""Object Repository/Transactions/Page_Advantage Shopping/label_Shop Now""), 20)",Chrome 121.0.0.0,,,12-02-2024 08:16:44,12-02-2024 08:16:49,4.609s,PASSED
+"click(findTestObject(""Object Repository/Transactions/Page_Advantage Shopping/label_Shop Now""))",Chrome 121.0.0.0,,,12-02-2024 08:16:49,12-02-2024 08:16:49,0.257s,PASSED
+"click(findTestObject(""Object Repository/Transactions/Page_Advantage Shopping/a_Beats Studio 2 Over-Ear Matte Black Headphones""))",Chrome 121.0.0.0,,,12-02-2024 08:16:49,12-02-2024 08:16:53,4.052s,PASSED
+"click(findTestObject(""Object Repository/Transactions/Page_Advantage Shopping/button_ADD TO CART""))",Chrome 121.0.0.0,,,12-02-2024 08:16:53,12-02-2024 08:17:02,8.912s,PASSED
+"users.Operations.Login(username, password)",Chrome 121.0.0.0,,,12-02-2024 08:17:02,12-02-2024 08:17:11,9.119s,PASSED
+"click(findTestObject(""Object Repository/Transactions/Page_Advantage Shopping/svgmenuCart""))",Chrome 121.0.0.0,,,12-02-2024 08:17:11,12-02-2024 08:17:12,0.258s,PASSED
+takeScreenshot(),Chrome 121.0.0.0,,,12-02-2024 08:17:12,12-02-2024 08:17:13,1.510s,PASSED
+"click(findTestObject(""Object Repository/Transactions/Page_Advantage Shopping/button_CHECKOUT (179.99)""))",Chrome 121.0.0.0,,,12-02-2024 08:17:13,12-02-2024 08:17:13,0.254s,PASSED
+"click(findTestObject(""Object Repository/Transactions/Page_Advantage Shopping/button_NEXT""))",Chrome 121.0.0.0,,,12-02-2024 08:17:13,12-02-2024 08:17:17,3.590s,PASSED
+"setText(findTestObject(""Object Repository/Transactions/Page_Advantage Shopping/input_safepay_username""), username)",Chrome 121.0.0.0,,,12-02-2024 08:17:17,12-02-2024 08:17:18,0.927s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Transactions/Page_Advantage Shopping/input_safepay_password""), password)",Chrome 121.0.0.0,,,12-02-2024 08:17:18,12-02-2024 08:17:18,0.610s,PASSED
+"click(findTestObject(""Object Repository/Transactions/Page_Advantage Shopping/button_PAY NOW""))",Chrome 121.0.0.0,,,12-02-2024 08:17:18,12-02-2024 08:17:19,0.877s,PASSED
+takeScreenshot(),Chrome 121.0.0.0,,,12-02-2024 08:17:19,12-02-2024 08:17:21,1.629s,PASSED
+"orderNumber = getText(findTestObject(""Object Repository/Transactions/Page_Advantage Shopping/orderNumberSpan""))",Chrome 121.0.0.0,,,12-02-2024 08:17:21,12-02-2024 08:17:21,0.234s,PASSED
+"click(findTestObject(""Object Repository/Transactions/Page_Advantage Shopping/span_airlangga""))",Chrome 121.0.0.0,,,12-02-2024 08:17:21,12-02-2024 08:17:21,0.255s,PASSED
+"click(findTestObject(""Object Repository/Transactions/Page_Advantage Shopping/label_My orders""))",Chrome 121.0.0.0,,,12-02-2024 08:17:21,12-02-2024 08:17:22,0.359s,PASSED
+takeScreenshot(),Chrome 121.0.0.0,,,12-02-2024 08:17:22,12-02-2024 08:17:23,1.314s,PASSED
+"verifyTextPresent(orderNumber, false)",Chrome 121.0.0.0,,,12-02-2024 08:17:23,12-02-2024 08:17:23,0.243s,PASSED
+closeBrowser(),Chrome 121.0.0.0,,,12-02-2024 08:17:23,12-02-2024 08:17:23,0.094s,PASSED
+Video,Chrome 121.0.0.0,,,12-02-2024 08:17:26,12-02-2024 08:17:26,0.000s,PASSED
+,,,,,,,
+Test Cases/transaction/Regular Check Out,Chrome 121.0.0.0,,,12-02-2024 08:17:26,12-02-2024 08:18:10,44.107s,PASSED
+"currentUser = new Users(username, password)",Chrome 121.0.0.0,,,12-02-2024 08:17:26,12-02-2024 08:17:26,0.001s,PASSED
+"openBrowser("""")",Chrome 121.0.0.0,,,12-02-2024 08:17:26,12-02-2024 08:17:26,0.598s,PASSED
+navigateToUrl(webURL),Chrome 121.0.0.0,,,12-02-2024 08:17:26,12-02-2024 08:17:28,1.752s,PASSED
+"waitForElementPresent(findTestObject(""Object Repository/Transactions/Page_Advantage Shopping/label_Shop Now""), 20)",Chrome 121.0.0.0,,,12-02-2024 08:17:28,12-02-2024 08:17:34,5.867s,PASSED
+"click(findTestObject(""Object Repository/Transactions/Page_Advantage Shopping/label_Shop Now""))",Chrome 121.0.0.0,,,12-02-2024 08:17:34,12-02-2024 08:17:34,0.257s,PASSED
+"click(findTestObject(""Object Repository/Transactions/Page_Advantage Shopping/a_Beats Studio 2 Over-Ear Matte Black Headphones""))",Chrome 121.0.0.0,,,12-02-2024 08:17:34,12-02-2024 08:17:38,3.521s,PASSED
+"click(findTestObject(""Object Repository/Transactions/Page_Advantage Shopping/button_ADD TO CART""))",Chrome 121.0.0.0,,,12-02-2024 08:17:38,12-02-2024 08:17:45,7.795s,PASSED
+"users.Operations.Login(username, password)",Chrome 121.0.0.0,,,12-02-2024 08:17:45,12-02-2024 08:17:54,8.902s,PASSED
+"click(findTestObject(""Object Repository/Transactions/Page_Advantage Shopping/svgmenuCart""))",Chrome 121.0.0.0,,,12-02-2024 08:17:54,12-02-2024 08:17:54,0.262s,PASSED
+takeScreenshot(),Chrome 121.0.0.0,,,12-02-2024 08:17:54,12-02-2024 08:17:56,1.616s,PASSED
+"click(findTestObject(""Object Repository/Transactions/Page_Advantage Shopping/button_CHECKOUT (179.99)""))",Chrome 121.0.0.0,,,12-02-2024 08:17:56,12-02-2024 08:17:56,0.256s,PASSED
+"click(findTestObject(""Object Repository/Transactions/Page_Advantage Shopping/button_NEXT""))",Chrome 121.0.0.0,,,12-02-2024 08:17:56,12-02-2024 08:18:00,3.808s,PASSED
+"setText(findTestObject(""Object Repository/Transactions/Page_Advantage Shopping/input_safepay_username""), username)",Chrome 121.0.0.0,,,12-02-2024 08:18:00,12-02-2024 08:18:01,0.933s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Transactions/Page_Advantage Shopping/input_safepay_password""), password)",Chrome 121.0.0.0,,,12-02-2024 08:18:01,12-02-2024 08:18:02,0.608s,PASSED
+"click(findTestObject(""Object Repository/Transactions/Page_Advantage Shopping/button_PAY NOW""))",Chrome 121.0.0.0,,,12-02-2024 08:18:02,12-02-2024 08:18:03,0.885s,PASSED
+takeScreenshot(),Chrome 121.0.0.0,,,12-02-2024 08:18:03,12-02-2024 08:18:04,1.719s,PASSED
+"orderNumber = getText(findTestObject(""Object Repository/Transactions/Page_Advantage Shopping/orderNumberSpan""))",Chrome 121.0.0.0,,,12-02-2024 08:18:04,12-02-2024 08:18:05,0.236s,PASSED
+"click(findTestObject(""Object Repository/Transactions/Page_Advantage Shopping/span_airlangga""))",Chrome 121.0.0.0,,,12-02-2024 08:18:05,12-02-2024 08:18:05,0.252s,PASSED
+"click(findTestObject(""Object Repository/Transactions/Page_Advantage Shopping/label_My orders""))",Chrome 121.0.0.0,,,12-02-2024 08:18:05,12-02-2024 08:18:05,0.363s,PASSED
+takeScreenshot(),Chrome 121.0.0.0,,,12-02-2024 08:18:05,12-02-2024 08:18:07,2.075s,PASSED
+"verifyTextPresent(orderNumber, false)",Chrome 121.0.0.0,,,12-02-2024 08:18:07,12-02-2024 08:18:07,0.245s,PASSED
+closeBrowser(),Chrome 121.0.0.0,,,12-02-2024 08:18:07,12-02-2024 08:18:08,0.094s,PASSED
+Video,Chrome 121.0.0.0,,,12-02-2024 08:18:10,12-02-2024 08:18:10,0.001s,PASSED
+,,,,,,,
+Test Cases/transaction/Checkout Without Login or Signup,Chrome 121.0.0.0,,,12-02-2024 08:18:10,12-02-2024 08:18:22,12.491s,PASSED
+"openBrowser("""")",Chrome 121.0.0.0,,,12-02-2024 08:18:10,12-02-2024 08:18:10,0.596s,PASSED
+"randomNumber = current().nextInt(1, 11)",Chrome 121.0.0.0,,,12-02-2024 08:18:10,12-02-2024 08:18:10,0.012s,PASSED
+"navigateToUrl(webURL + ""product/"" + randomNumber)",Chrome 121.0.0.0,,,12-02-2024 08:18:10,12-02-2024 08:18:15,4.236s,PASSED
+"click(findTestObject(""Object Repository/Transactions/Page_Advantage Shopping/button_ADD TO CART""))",Chrome 121.0.0.0,,,12-02-2024 08:18:15,12-02-2024 08:18:18,3.920s,PASSED
+"click(findTestObject(""Object Repository/Transactions/Page_Advantage Shopping/button_CHECKOUT  (1,279.00)""))",Chrome 121.0.0.0,,,12-02-2024 08:18:18,12-02-2024 08:18:19,0.669s,PASSED
+"verifyTextPresent(""Already have an account?"", false)",Chrome 121.0.0.0,,,12-02-2024 08:18:19,12-02-2024 08:18:20,0.877s,PASSED
+closeBrowser(),Chrome 121.0.0.0,,,12-02-2024 08:18:20,12-02-2024 08:18:20,0.084s,PASSED
+Video,Chrome 121.0.0.0,,,12-02-2024 08:18:22,12-02-2024 08:18:22,0.000s,PASSED

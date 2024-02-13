@@ -1,0 +1,4 @@
+{"testCaseName":"Test Cases/transaction/Regular Check Out","testCaseId":"Test Cases/transaction/Regular Check Out","iterationVariableName":"","bindedValues":{"password":"\u0027Agus1234\u0027","username":"\u0027agus_r\u0027"}}
+{"testCaseName":"Test Cases/transaction/Regular Check Out","testCaseId":"Test Cases/transaction/Regular Check Out","iterationVariableName":"","bindedValues":{"password":"\u0027LisaPwd456\u0027","username":"\u0027lisa_smith\u0027"}}
+{"testCaseName":"Test Cases/transaction/Regular Check Out","testCaseId":"Test Cases/transaction/Regular Check Out","iterationVariableName":"","bindedValues":{"password":"\u0027PassAdam1\u0027","username":"\u0027adam_jones\u0027"}}
+{"testCaseName":"Test Cases/transaction/Checkout Without Login or Signup","testCaseId":"Test Cases/transaction/Checkout Without Login or Signup","iterationVariableName":""}

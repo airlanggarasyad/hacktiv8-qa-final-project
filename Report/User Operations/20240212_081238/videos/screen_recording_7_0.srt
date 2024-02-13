@@ -1,0 +1,24 @@
+1
+00:00:00,022 --> 00:00:00,025
+1. currentUser = new Users(username, password)
+
+2
+00:00:00,026 --> 00:00:00,585
+5. openBrowser("")
+
+3
+00:00:00,588 --> 00:00:02,964
+9. navigateToUrl(webURL)
+
+4
+00:00:02,964 --> 00:00:12,186
+13. users.Operations.Login(username, password)
+
+5
+00:00:12,186 --> 00:00:12,800
+17. users.Operations.Logout()
+
+6
+00:00:12,800 --> 00:00:12,890
+21. closeBrowser()
+

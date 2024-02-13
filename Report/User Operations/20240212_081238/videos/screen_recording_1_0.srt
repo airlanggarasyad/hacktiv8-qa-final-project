@@ -1,0 +1,96 @@
+1
+00:00:00,110 --> 00:00:00,147
+1. encryptedText = auth.CryptoUtils.encrypt(password)
+
+2
+00:00:00,153 --> 00:00:01,520
+5. openBrowser("")
+
+3
+00:00:01,524 --> 00:00:04,011
+9. navigateToUrl(webURL + "register")
+
+4
+00:00:04,011 --> 00:00:05,788
+13. setText(findTestObject("Object Repository/Page_Advantage Shopping/input_usernameRegisterPage"), username)
+
+5
+00:00:05,788 --> 00:00:06,274
+17. click(findTestObject("Object Repository/Page_Advantage Shopping/label_Email"))
+
+6
+00:00:06,274 --> 00:00:07,412
+21. setText(findTestObject("Object Repository/Page_Advantage Shopping/input_emailRegisterPage"), email)
+
+7
+00:00:07,412 --> 00:00:07,908
+25. setEncryptedText(findTestObject("Object Repository/Page_Advantage Shopping/input_passwordRegisterPage"), encryptedText)
+
+8
+00:00:07,908 --> 00:00:08,418
+29. setEncryptedText(findTestObject("Object Repository/Page_Advantage Shopping/input_confirm_passwordRegisterPage"), encryptedText)
+
+9
+00:00:08,419 --> 00:00:09,568
+33. setText(findTestObject("Object Repository/Page_Advantage Shopping/input_first_nameRegisterPage"), first_name)
+
+10
+00:00:09,568 --> 00:00:10,694
+37. setText(findTestObject("Object Repository/Page_Advantage Shopping/input_last_nameRegisterPage"), last_name)
+
+11
+00:00:10,695 --> 00:00:11,838
+41. setText(findTestObject("Object Repository/Page_Advantage Shopping/input_phone_numberRegisterPage"), phone_number)
+
+12
+00:00:11,838 --> 00:00:11,839
+45. countryCode = 0
+
+13
+00:00:11,840 --> 00:00:11,841
+49. switch (country)
+
+14
+00:00:11,842 --> 00:00:11,843
+2. countryCode = 170
+
+15
+00:00:11,843 --> 00:00:11,844
+6. break
+
+16
+00:00:11,844 --> 00:00:14,512
+53. selectOptionByValue(findTestObject("Object Repository/Page_Advantage Shopping/select_AfganistanAlbaniaAlgeriaAmerican Sam_3cef8a"), "object:" + countryCode, true)
+
+17
+00:00:14,512 --> 00:00:15,221
+57. setText(findTestObject("Object Repository/Page_Advantage Shopping/input_cityRegisterPage"), city)
+
+18
+00:00:15,222 --> 00:00:16,364
+61. setText(findTestObject("Object Repository/Page_Advantage Shopping/input_addressRegisterPage"), address)
+
+19
+00:00:16,364 --> 00:00:17,494
+65. setText(findTestObject("Object Repository/Page_Advantage Shopping/input_state__province__regionRegisterPage"), province)
+
+20
+00:00:17,494 --> 00:00:18,609
+69. setText(findTestObject("Object Repository/Page_Advantage Shopping/input_postal_codeRegisterPage"), postal_code)
+
+21
+00:00:18,609 --> 00:00:19,078
+73. click(findTestObject("Object Repository/Page_Advantage Shopping/input_i_agree"))
+
+22
+00:00:19,078 --> 00:00:19,644
+77. click(findTestObject("Object Repository/Page_Advantage Shopping/button_REGISTER"))
+
+23
+00:00:19,644 --> 00:00:20,910
+81. takeScreenshot()
+
+24
+00:00:20,910 --> 00:00:21,005
+85. closeBrowser()
+

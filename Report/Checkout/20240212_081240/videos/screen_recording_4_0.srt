@@ -1,0 +1,28 @@
+1
+00:00:00,024 --> 00:00:00,618
+1. openBrowser("")
+
+2
+00:00:00,620 --> 00:00:00,630
+5. randomNumber = current().nextInt(1, 11)
+
+3
+00:00:00,633 --> 00:00:04,866
+9. navigateToUrl(webURL + "product/" + randomNumber)
+
+4
+00:00:04,869 --> 00:00:08,790
+13. click(findTestObject("Object Repository/Transactions/Page_Advantage Shopping/button_ADD TO CART"))
+
+5
+00:00:08,790 --> 00:00:09,459
+17. click(findTestObject("Object Repository/Transactions/Page_Advantage Shopping/button_CHECKOUT  (1,279.00)"))
+
+6
+00:00:09,459 --> 00:00:10,336
+21. verifyTextPresent("Already have an account?", false)
+
+7
+00:00:10,336 --> 00:00:10,421
+25. closeBrowser()
+

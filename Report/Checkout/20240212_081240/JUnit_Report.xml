@@ -1,0 +1,427 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Checkout" time="151.145" tests="4" failures="0" errors="0">
+   <testsuite name="Checkout" tests="4" failures="0" errors="0" time="151.145" skipped="0" timestamp="12-02-2024T08:15:51" hostname="airlanggafidiyanto - localhost" id="Test Suites/Checkout">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/airlanggafidiyanto/Documents/BRI/BFLP/hacktiv8-qa-final-project/web-testing/Reports/20240212_081237/Checkout/20240212_081240"/>
+         <property name="logFiles" value="/Users/airlanggafidiyanto/Documents/BRI/BFLP/hacktiv8-qa-final-project/web-testing/Reports/20240212_081237/Checkout/20240212_081240/execution0.log"/>
+         <property name="attachments" value="/Users/airlanggafidiyanto/Documents/BRI/BFLP/hacktiv8-qa-final-project/web-testing/Reports/20240212_081237/Checkout/20240212_081240/1707700587590.png, /Users/airlanggafidiyanto/Documents/BRI/BFLP/hacktiv8-qa-final-project/web-testing/Reports/20240212_081237/Checkout/20240212_081240/1707700589891.png, /Users/airlanggafidiyanto/Documents/BRI/BFLP/hacktiv8-qa-final-project/web-testing/Reports/20240212_081237/Checkout/20240212_081240/1707700597176.png, /Users/airlanggafidiyanto/Documents/BRI/BFLP/hacktiv8-qa-final-project/web-testing/Reports/20240212_081237/Checkout/20240212_081240/1707700599237.png, /Users/airlanggafidiyanto/Documents/BRI/BFLP/hacktiv8-qa-final-project/web-testing/Reports/20240212_081237/Checkout/20240212_081240/1707700631161.png, /Users/airlanggafidiyanto/Documents/BRI/BFLP/hacktiv8-qa-final-project/web-testing/Reports/20240212_081237/Checkout/20240212_081240/1707700633446.png, /Users/airlanggafidiyanto/Documents/BRI/BFLP/hacktiv8-qa-final-project/web-testing/Reports/20240212_081237/Checkout/20240212_081240/1707700641346.png, /Users/airlanggafidiyanto/Documents/BRI/BFLP/hacktiv8-qa-final-project/web-testing/Reports/20240212_081237/Checkout/20240212_081240/1707700643494.png, /Users/airlanggafidiyanto/Documents/BRI/BFLP/hacktiv8-qa-final-project/web-testing/Reports/20240212_081237/Checkout/20240212_081240/1707700674091.png, /Users/airlanggafidiyanto/Documents/BRI/BFLP/hacktiv8-qa-final-project/web-testing/Reports/20240212_081237/Checkout/20240212_081240/1707700676476.png, /Users/airlanggafidiyanto/Documents/BRI/BFLP/hacktiv8-qa-final-project/web-testing/Reports/20240212_081237/Checkout/20240212_081240/1707700684688.png, /Users/airlanggafidiyanto/Documents/BRI/BFLP/hacktiv8-qa-final-project/web-testing/Reports/20240212_081237/Checkout/20240212_081240/1707700687548.png"/>
+         <property name="hostName" value="airlanggafidiyanto - localhost"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="9.2.0.212"/>
+         <property name="browser" value="Chrome 121.0.0.0"/>
+         <property name="hostAddress" value="127.0.0.1"/>
+         <property name="sessionId" value="3a3a22ff8cd2500d78d6d89f19af4b5e"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/transaction/Regular Check Out" time="50.424" classname="Test Cases/transaction/Regular Check Out" status="PASSED">
+         <system-out><![CDATA[12-02-2024T08:15:51 - [TEST_CASE][PASSED] - Test Cases/transaction/Regular Check Out: Test Cases/transaction/Regular Check Out
+
+12-02-2024T08:15:51 - [TEST_STEP][PASSED] - currentUser = new Users(username, password): auth.CryptoUtils.encrypt is PASSED
+
+12-02-2024T08:15:51 - [MESSAGE][PASSED] - auth.CryptoUtils.encrypt is PASSED
+
+12-02-2024T08:15:51 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+12-02-2024T08:15:52 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+12-02-2024T08:15:52 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+12-02-2024T08:15:52 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+12-02-2024T08:15:52 - [TEST_STEP][PASSED] - navigateToUrl(webURL): Navigate to 'https://advantageonlineshopping.com/#/' successfully
+
+12-02-2024T08:15:55 - [MESSAGE][PASSED] - Navigate to 'https://advantageonlineshopping.com/#/' successfully
+
+12-02-2024T08:15:55 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Object Repository/Transactions/Page_Advantage Shopping/label_Shop Now"), 20): Object 'Object Repository/Transactions/Page_Advantage Shopping/label_Shop Now' is present
+
+12-02-2024T08:15:59 - [MESSAGE][PASSED] - Object 'Object Repository/Transactions/Page_Advantage Shopping/label_Shop Now' is present
+
+12-02-2024T08:15:59 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Transactions/Page_Advantage Shopping/label_Shop Now")): Object: 'Object Repository/Transactions/Page_Advantage Shopping/label_Shop Now' is clicked on
+
+12-02-2024T08:15:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Transactions/Page_Advantage Shopping/label_Shop Now' is clicked on
+
+12-02-2024T08:15:59 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Transactions/Page_Advantage Shopping/a_Beats Studio 2 Over-Ear Matte Black Headphones")): Object: 'Object Repository/Transactions/Page_Advantage Shopping/a_Beats Studio 2 Over-Ear Matte Black Headphones' is clicked on
+
+12-02-2024T08:16:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Transactions/Page_Advantage Shopping/a_Beats Studio 2 Over-Ear Matte Black Headphones' is clicked on
+
+12-02-2024T08:16:04 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Transactions/Page_Advantage Shopping/button_ADD TO CART")): Object: 'Object Repository/Transactions/Page_Advantage Shopping/button_ADD TO CART' is clicked on
+
+12-02-2024T08:16:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Transactions/Page_Advantage Shopping/button_ADD TO CART' is clicked on
+
+12-02-2024T08:16:19 - [TEST_STEP][PASSED] - users.Operations.Login(username, password): users.Operations.Login is PASSED
+
+12-02-2024T08:16:23 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+12-02-2024T08:16:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Auth/Page_Advantage Shopping/svgmenuUser' is clicked on
+
+12-02-2024T08:16:24 - [MESSAGE][PASSED] - Text 'agus_r' is set on object 'Object Repository/Auth/Page_Advantage Shopping/input_username'
+
+12-02-2024T08:16:25 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Auth/Page_Advantage Shopping/input_password'
+
+12-02-2024T08:16:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Auth/Page_Advantage Shopping/button_SIGN IN' is clicked on
+
+12-02-2024T08:16:27 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/Users/airlanggafidiyanto/Documents/BRI/BFLP/hacktiv8-qa-final-project/web-testing/Reports/20240212_081237/Checkout/20240212_081240/1707700587590.png]]
+
+12-02-2024T08:16:27 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+12-02-2024T08:16:28 - [MESSAGE][PASSED] - Object 'Object Repository/Auth/Page_Advantage Shopping/span_airlangga' is present
+
+12-02-2024T08:16:28 - [MESSAGE][PASSED] - Text of object 'Object Repository/Auth/Page_Advantage Shopping/span_airlangga' is: 'agus_r'
+
+12-02-2024T08:16:28 - [MESSAGE][PASSED] - users.Operations.Login is PASSED
+
+12-02-2024T08:16:28 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Transactions/Page_Advantage Shopping/svgmenuCart")): Object: 'Object Repository/Transactions/Page_Advantage Shopping/svgmenuCart' is clicked on
+
+12-02-2024T08:16:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Transactions/Page_Advantage Shopping/svgmenuCart' is clicked on
+
+12-02-2024T08:16:28 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+12-02-2024T08:16:30 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/Users/airlanggafidiyanto/Documents/BRI/BFLP/hacktiv8-qa-final-project/web-testing/Reports/20240212_081237/Checkout/20240212_081240/1707700589891.png]]
+
+12-02-2024T08:16:30 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Transactions/Page_Advantage Shopping/button_CHECKOUT (179.99)")): Object: 'Object Repository/Transactions/Page_Advantage Shopping/button_CHECKOUT (179.99)' is clicked on
+
+12-02-2024T08:16:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Transactions/Page_Advantage Shopping/button_CHECKOUT (179.99)' is clicked on
+
+12-02-2024T08:16:30 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Transactions/Page_Advantage Shopping/button_NEXT")): Object: 'Object Repository/Transactions/Page_Advantage Shopping/button_NEXT' is clicked on
+
+12-02-2024T08:16:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Transactions/Page_Advantage Shopping/button_NEXT' is clicked on
+
+12-02-2024T08:16:33 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Transactions/Page_Advantage Shopping/input_safepay_username"), username): Text 'agus_r' is set on object 'Object Repository/Transactions/Page_Advantage Shopping/input_safepay_username'
+
+12-02-2024T08:16:34 - [MESSAGE][PASSED] - Text 'agus_r' is set on object 'Object Repository/Transactions/Page_Advantage Shopping/input_safepay_username'
+
+12-02-2024T08:16:34 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Transactions/Page_Advantage Shopping/input_safepay_password"), password): Text ****** has been set on object 'Object Repository/Transactions/Page_Advantage Shopping/input_safepay_password'
+
+12-02-2024T08:16:34 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Transactions/Page_Advantage Shopping/input_safepay_password'
+
+12-02-2024T08:16:34 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Transactions/Page_Advantage Shopping/button_PAY NOW")): Object: 'Object Repository/Transactions/Page_Advantage Shopping/button_PAY NOW' is clicked on
+
+12-02-2024T08:16:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Transactions/Page_Advantage Shopping/button_PAY NOW' is clicked on
+
+12-02-2024T08:16:35 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+12-02-2024T08:16:37 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/Users/airlanggafidiyanto/Documents/BRI/BFLP/hacktiv8-qa-final-project/web-testing/Reports/20240212_081237/Checkout/20240212_081240/1707700597176.png]]
+
+12-02-2024T08:16:37 - [TEST_STEP][PASSED] - orderNumber = getText(findTestObject("Object Repository/Transactions/Page_Advantage Shopping/orderNumberSpan")): Text of object 'Object Repository/Transactions/Page_Advantage Shopping/orderNumberSpan' is: '6690467026'
+
+12-02-2024T08:16:37 - [MESSAGE][PASSED] - Text of object 'Object Repository/Transactions/Page_Advantage Shopping/orderNumberSpan' is: '6690467026'
+
+12-02-2024T08:16:37 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Transactions/Page_Advantage Shopping/span_airlangga")): Object: 'Object Repository/Transactions/Page_Advantage Shopping/span_airlangga' is clicked on
+
+12-02-2024T08:16:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Transactions/Page_Advantage Shopping/span_airlangga' is clicked on
+
+12-02-2024T08:16:37 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Transactions/Page_Advantage Shopping/label_My orders")): Object: 'Object Repository/Transactions/Page_Advantage Shopping/label_My orders' is clicked on
+
+12-02-2024T08:16:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Transactions/Page_Advantage Shopping/label_My orders' is clicked on
+
+12-02-2024T08:16:38 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+12-02-2024T08:16:39 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/Users/airlanggafidiyanto/Documents/BRI/BFLP/hacktiv8-qa-final-project/web-testing/Reports/20240212_081237/Checkout/20240212_081240/1707700599237.png]]
+
+12-02-2024T08:16:39 - [TEST_STEP][PASSED] - verifyTextPresent(orderNumber, false): Text '6690467026' is present on page 
+
+12-02-2024T08:16:39 - [MESSAGE][PASSED] - Text '6690467026' is present on page 
+
+12-02-2024T08:16:39 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+12-02-2024T08:16:39 - [MESSAGE][PASSED] - Browser is closed
+
+12-02-2024T08:16:41 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/transaction/Regular Check Out' .
+
+12-02-2024T08:16:41 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/transaction/Regular Check Out' .]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/transaction/Regular Check Out" time="44.032" classname="Test Cases/transaction/Regular Check Out" status="PASSED">
+         <system-out><![CDATA[12-02-2024T08:16:41 - [TEST_CASE][PASSED] - Test Cases/transaction/Regular Check Out: Test Cases/transaction/Regular Check Out
+
+12-02-2024T08:16:41 - [TEST_STEP][PASSED] - currentUser = new Users(username, password): auth.CryptoUtils.encrypt is PASSED
+
+12-02-2024T08:16:41 - [MESSAGE][PASSED] - auth.CryptoUtils.encrypt is PASSED
+
+12-02-2024T08:16:41 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+12-02-2024T08:16:42 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+12-02-2024T08:16:42 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+12-02-2024T08:16:42 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+12-02-2024T08:16:42 - [TEST_STEP][PASSED] - navigateToUrl(webURL): Navigate to 'https://advantageonlineshopping.com/#/' successfully
+
+12-02-2024T08:16:44 - [MESSAGE][PASSED] - Navigate to 'https://advantageonlineshopping.com/#/' successfully
+
+12-02-2024T08:16:44 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Object Repository/Transactions/Page_Advantage Shopping/label_Shop Now"), 20): Object 'Object Repository/Transactions/Page_Advantage Shopping/label_Shop Now' is present
+
+12-02-2024T08:16:49 - [MESSAGE][PASSED] - Object 'Object Repository/Transactions/Page_Advantage Shopping/label_Shop Now' is present
+
+12-02-2024T08:16:49 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Transactions/Page_Advantage Shopping/label_Shop Now")): Object: 'Object Repository/Transactions/Page_Advantage Shopping/label_Shop Now' is clicked on
+
+12-02-2024T08:16:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Transactions/Page_Advantage Shopping/label_Shop Now' is clicked on
+
+12-02-2024T08:16:49 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Transactions/Page_Advantage Shopping/a_Beats Studio 2 Over-Ear Matte Black Headphones")): Object: 'Object Repository/Transactions/Page_Advantage Shopping/a_Beats Studio 2 Over-Ear Matte Black Headphones' is clicked on
+
+12-02-2024T08:16:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Transactions/Page_Advantage Shopping/a_Beats Studio 2 Over-Ear Matte Black Headphones' is clicked on
+
+12-02-2024T08:16:53 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Transactions/Page_Advantage Shopping/button_ADD TO CART")): Object: 'Object Repository/Transactions/Page_Advantage Shopping/button_ADD TO CART' is clicked on
+
+12-02-2024T08:17:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Transactions/Page_Advantage Shopping/button_ADD TO CART' is clicked on
+
+12-02-2024T08:17:02 - [TEST_STEP][PASSED] - users.Operations.Login(username, password): users.Operations.Login is PASSED
+
+12-02-2024T08:17:06 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+12-02-2024T08:17:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Auth/Page_Advantage Shopping/svgmenuUser' is clicked on
+
+12-02-2024T08:17:07 - [MESSAGE][PASSED] - Text 'lisa_smith' is set on object 'Object Repository/Auth/Page_Advantage Shopping/input_username'
+
+12-02-2024T08:17:09 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Auth/Page_Advantage Shopping/input_password'
+
+12-02-2024T08:17:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Auth/Page_Advantage Shopping/button_SIGN IN' is clicked on
+
+12-02-2024T08:17:11 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/Users/airlanggafidiyanto/Documents/BRI/BFLP/hacktiv8-qa-final-project/web-testing/Reports/20240212_081237/Checkout/20240212_081240/1707700631161.png]]
+
+12-02-2024T08:17:11 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+12-02-2024T08:17:11 - [MESSAGE][PASSED] - Object 'Object Repository/Auth/Page_Advantage Shopping/span_airlangga' is present
+
+12-02-2024T08:17:11 - [MESSAGE][PASSED] - Text of object 'Object Repository/Auth/Page_Advantage Shopping/span_airlangga' is: 'lisa_smith'
+
+12-02-2024T08:17:11 - [MESSAGE][PASSED] - users.Operations.Login is PASSED
+
+12-02-2024T08:17:11 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Transactions/Page_Advantage Shopping/svgmenuCart")): Object: 'Object Repository/Transactions/Page_Advantage Shopping/svgmenuCart' is clicked on
+
+12-02-2024T08:17:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Transactions/Page_Advantage Shopping/svgmenuCart' is clicked on
+
+12-02-2024T08:17:12 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+12-02-2024T08:17:13 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/Users/airlanggafidiyanto/Documents/BRI/BFLP/hacktiv8-qa-final-project/web-testing/Reports/20240212_081237/Checkout/20240212_081240/1707700633446.png]]
+
+12-02-2024T08:17:13 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Transactions/Page_Advantage Shopping/button_CHECKOUT (179.99)")): Object: 'Object Repository/Transactions/Page_Advantage Shopping/button_CHECKOUT (179.99)' is clicked on
+
+12-02-2024T08:17:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Transactions/Page_Advantage Shopping/button_CHECKOUT (179.99)' is clicked on
+
+12-02-2024T08:17:13 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Transactions/Page_Advantage Shopping/button_NEXT")): Object: 'Object Repository/Transactions/Page_Advantage Shopping/button_NEXT' is clicked on
+
+12-02-2024T08:17:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Transactions/Page_Advantage Shopping/button_NEXT' is clicked on
+
+12-02-2024T08:17:17 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Transactions/Page_Advantage Shopping/input_safepay_username"), username): Text 'lisa_smith' is set on object 'Object Repository/Transactions/Page_Advantage Shopping/input_safepay_username'
+
+12-02-2024T08:17:18 - [MESSAGE][PASSED] - Text 'lisa_smith' is set on object 'Object Repository/Transactions/Page_Advantage Shopping/input_safepay_username'
+
+12-02-2024T08:17:18 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Transactions/Page_Advantage Shopping/input_safepay_password"), password): Text ****** has been set on object 'Object Repository/Transactions/Page_Advantage Shopping/input_safepay_password'
+
+12-02-2024T08:17:18 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Transactions/Page_Advantage Shopping/input_safepay_password'
+
+12-02-2024T08:17:18 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Transactions/Page_Advantage Shopping/button_PAY NOW")): Object: 'Object Repository/Transactions/Page_Advantage Shopping/button_PAY NOW' is clicked on
+
+12-02-2024T08:17:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Transactions/Page_Advantage Shopping/button_PAY NOW' is clicked on
+
+12-02-2024T08:17:19 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+12-02-2024T08:17:21 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/Users/airlanggafidiyanto/Documents/BRI/BFLP/hacktiv8-qa-final-project/web-testing/Reports/20240212_081237/Checkout/20240212_081240/1707700641346.png]]
+
+12-02-2024T08:17:21 - [TEST_STEP][PASSED] - orderNumber = getText(findTestObject("Object Repository/Transactions/Page_Advantage Shopping/orderNumberSpan")): Text of object 'Object Repository/Transactions/Page_Advantage Shopping/orderNumberSpan' is: '6690467098'
+
+12-02-2024T08:17:21 - [MESSAGE][PASSED] - Text of object 'Object Repository/Transactions/Page_Advantage Shopping/orderNumberSpan' is: '6690467098'
+
+12-02-2024T08:17:21 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Transactions/Page_Advantage Shopping/span_airlangga")): Object: 'Object Repository/Transactions/Page_Advantage Shopping/span_airlangga' is clicked on
+
+12-02-2024T08:17:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Transactions/Page_Advantage Shopping/span_airlangga' is clicked on
+
+12-02-2024T08:17:21 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Transactions/Page_Advantage Shopping/label_My orders")): Object: 'Object Repository/Transactions/Page_Advantage Shopping/label_My orders' is clicked on
+
+12-02-2024T08:17:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Transactions/Page_Advantage Shopping/label_My orders' is clicked on
+
+12-02-2024T08:17:22 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+12-02-2024T08:17:23 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/Users/airlanggafidiyanto/Documents/BRI/BFLP/hacktiv8-qa-final-project/web-testing/Reports/20240212_081237/Checkout/20240212_081240/1707700643494.png]]
+
+12-02-2024T08:17:23 - [TEST_STEP][PASSED] - verifyTextPresent(orderNumber, false): Text '6690467098' is present on page 
+
+12-02-2024T08:17:23 - [MESSAGE][PASSED] - Text '6690467098' is present on page 
+
+12-02-2024T08:17:23 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+12-02-2024T08:17:23 - [MESSAGE][PASSED] - Browser is closed
+
+12-02-2024T08:17:26 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/transaction/Regular Check Out' .
+
+12-02-2024T08:17:26 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/transaction/Regular Check Out' .]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/transaction/Regular Check Out" time="44.107" classname="Test Cases/transaction/Regular Check Out" status="PASSED">
+         <system-out><![CDATA[12-02-2024T08:17:26 - [TEST_CASE][PASSED] - Test Cases/transaction/Regular Check Out: Test Cases/transaction/Regular Check Out
+
+12-02-2024T08:17:26 - [TEST_STEP][PASSED] - currentUser = new Users(username, password): auth.CryptoUtils.encrypt is PASSED
+
+12-02-2024T08:17:26 - [MESSAGE][PASSED] - auth.CryptoUtils.encrypt is PASSED
+
+12-02-2024T08:17:26 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+12-02-2024T08:17:26 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+12-02-2024T08:17:26 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+12-02-2024T08:17:26 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+12-02-2024T08:17:26 - [TEST_STEP][PASSED] - navigateToUrl(webURL): Navigate to 'https://advantageonlineshopping.com/#/' successfully
+
+12-02-2024T08:17:28 - [MESSAGE][PASSED] - Navigate to 'https://advantageonlineshopping.com/#/' successfully
+
+12-02-2024T08:17:28 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Object Repository/Transactions/Page_Advantage Shopping/label_Shop Now"), 20): Object 'Object Repository/Transactions/Page_Advantage Shopping/label_Shop Now' is present
+
+12-02-2024T08:17:34 - [MESSAGE][PASSED] - Object 'Object Repository/Transactions/Page_Advantage Shopping/label_Shop Now' is present
+
+12-02-2024T08:17:34 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Transactions/Page_Advantage Shopping/label_Shop Now")): Object: 'Object Repository/Transactions/Page_Advantage Shopping/label_Shop Now' is clicked on
+
+12-02-2024T08:17:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Transactions/Page_Advantage Shopping/label_Shop Now' is clicked on
+
+12-02-2024T08:17:34 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Transactions/Page_Advantage Shopping/a_Beats Studio 2 Over-Ear Matte Black Headphones")): Object: 'Object Repository/Transactions/Page_Advantage Shopping/a_Beats Studio 2 Over-Ear Matte Black Headphones' is clicked on
+
+12-02-2024T08:17:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Transactions/Page_Advantage Shopping/a_Beats Studio 2 Over-Ear Matte Black Headphones' is clicked on
+
+12-02-2024T08:17:38 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Transactions/Page_Advantage Shopping/button_ADD TO CART")): Object: 'Object Repository/Transactions/Page_Advantage Shopping/button_ADD TO CART' is clicked on
+
+12-02-2024T08:17:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Transactions/Page_Advantage Shopping/button_ADD TO CART' is clicked on
+
+12-02-2024T08:17:45 - [TEST_STEP][PASSED] - users.Operations.Login(username, password): users.Operations.Login is PASSED
+
+12-02-2024T08:17:49 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+12-02-2024T08:17:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Auth/Page_Advantage Shopping/svgmenuUser' is clicked on
+
+12-02-2024T08:17:51 - [MESSAGE][PASSED] - Text 'adam_jones' is set on object 'Object Repository/Auth/Page_Advantage Shopping/input_username'
+
+12-02-2024T08:17:52 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Auth/Page_Advantage Shopping/input_password'
+
+12-02-2024T08:17:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Auth/Page_Advantage Shopping/button_SIGN IN' is clicked on
+
+12-02-2024T08:17:54 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/Users/airlanggafidiyanto/Documents/BRI/BFLP/hacktiv8-qa-final-project/web-testing/Reports/20240212_081237/Checkout/20240212_081240/1707700674091.png]]
+
+12-02-2024T08:17:54 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+12-02-2024T08:17:54 - [MESSAGE][PASSED] - Object 'Object Repository/Auth/Page_Advantage Shopping/span_airlangga' is present
+
+12-02-2024T08:17:54 - [MESSAGE][PASSED] - Text of object 'Object Repository/Auth/Page_Advantage Shopping/span_airlangga' is: 'adam_jones'
+
+12-02-2024T08:17:54 - [MESSAGE][PASSED] - users.Operations.Login is PASSED
+
+12-02-2024T08:17:54 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Transactions/Page_Advantage Shopping/svgmenuCart")): Object: 'Object Repository/Transactions/Page_Advantage Shopping/svgmenuCart' is clicked on
+
+12-02-2024T08:17:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Transactions/Page_Advantage Shopping/svgmenuCart' is clicked on
+
+12-02-2024T08:17:54 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+12-02-2024T08:17:56 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/Users/airlanggafidiyanto/Documents/BRI/BFLP/hacktiv8-qa-final-project/web-testing/Reports/20240212_081237/Checkout/20240212_081240/1707700676476.png]]
+
+12-02-2024T08:17:56 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Transactions/Page_Advantage Shopping/button_CHECKOUT (179.99)")): Object: 'Object Repository/Transactions/Page_Advantage Shopping/button_CHECKOUT (179.99)' is clicked on
+
+12-02-2024T08:17:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Transactions/Page_Advantage Shopping/button_CHECKOUT (179.99)' is clicked on
+
+12-02-2024T08:17:56 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Transactions/Page_Advantage Shopping/button_NEXT")): Object: 'Object Repository/Transactions/Page_Advantage Shopping/button_NEXT' is clicked on
+
+12-02-2024T08:18:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Transactions/Page_Advantage Shopping/button_NEXT' is clicked on
+
+12-02-2024T08:18:00 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Transactions/Page_Advantage Shopping/input_safepay_username"), username): Text 'adam_jones' is set on object 'Object Repository/Transactions/Page_Advantage Shopping/input_safepay_username'
+
+12-02-2024T08:18:01 - [MESSAGE][PASSED] - Text 'adam_jones' is set on object 'Object Repository/Transactions/Page_Advantage Shopping/input_safepay_username'
+
+12-02-2024T08:18:01 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Transactions/Page_Advantage Shopping/input_safepay_password"), password): Text ****** has been set on object 'Object Repository/Transactions/Page_Advantage Shopping/input_safepay_password'
+
+12-02-2024T08:18:02 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Transactions/Page_Advantage Shopping/input_safepay_password'
+
+12-02-2024T08:18:02 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Transactions/Page_Advantage Shopping/button_PAY NOW")): Object: 'Object Repository/Transactions/Page_Advantage Shopping/button_PAY NOW' is clicked on
+
+12-02-2024T08:18:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Transactions/Page_Advantage Shopping/button_PAY NOW' is clicked on
+
+12-02-2024T08:18:03 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+12-02-2024T08:18:04 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/Users/airlanggafidiyanto/Documents/BRI/BFLP/hacktiv8-qa-final-project/web-testing/Reports/20240212_081237/Checkout/20240212_081240/1707700684688.png]]
+
+12-02-2024T08:18:04 - [TEST_STEP][PASSED] - orderNumber = getText(findTestObject("Object Repository/Transactions/Page_Advantage Shopping/orderNumberSpan")): Text of object 'Object Repository/Transactions/Page_Advantage Shopping/orderNumberSpan' is: '6690467027'
+
+12-02-2024T08:18:05 - [MESSAGE][PASSED] - Text of object 'Object Repository/Transactions/Page_Advantage Shopping/orderNumberSpan' is: '6690467027'
+
+12-02-2024T08:18:05 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Transactions/Page_Advantage Shopping/span_airlangga")): Object: 'Object Repository/Transactions/Page_Advantage Shopping/span_airlangga' is clicked on
+
+12-02-2024T08:18:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Transactions/Page_Advantage Shopping/span_airlangga' is clicked on
+
+12-02-2024T08:18:05 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Transactions/Page_Advantage Shopping/label_My orders")): Object: 'Object Repository/Transactions/Page_Advantage Shopping/label_My orders' is clicked on
+
+12-02-2024T08:18:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Transactions/Page_Advantage Shopping/label_My orders' is clicked on
+
+12-02-2024T08:18:05 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+12-02-2024T08:18:07 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/Users/airlanggafidiyanto/Documents/BRI/BFLP/hacktiv8-qa-final-project/web-testing/Reports/20240212_081237/Checkout/20240212_081240/1707700687548.png]]
+
+12-02-2024T08:18:07 - [TEST_STEP][PASSED] - verifyTextPresent(orderNumber, false): Text '6690467027' is present on page 
+
+12-02-2024T08:18:07 - [MESSAGE][PASSED] - Text '6690467027' is present on page 
+
+12-02-2024T08:18:07 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+12-02-2024T08:18:08 - [MESSAGE][PASSED] - Browser is closed
+
+12-02-2024T08:18:10 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/transaction/Regular Check Out' .
+
+12-02-2024T08:18:10 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/transaction/Regular Check Out' .]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/transaction/Checkout Without Login or Signup" time="12.491" classname="Test Cases/transaction/Checkout Without Login or Signup" status="PASSED">
+         <system-out><![CDATA[12-02-2024T08:18:10 - [TEST_CASE][PASSED] - Test Cases/transaction/Checkout Without Login or Signup: Test Cases/transaction/Checkout Without Login or Signup
+
+12-02-2024T08:18:10 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+12-02-2024T08:18:10 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+12-02-2024T08:18:10 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+12-02-2024T08:18:10 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+12-02-2024T08:18:10 - [TEST_STEP][PASSED] - randomNumber = current().nextInt(1, 11): null
+
+12-02-2024T08:18:10 - [TEST_STEP][PASSED] - navigateToUrl(webURL + "product/" + randomNumber): Navigate to 'https://advantageonlineshopping.com/#/product/6' successfully
+
+12-02-2024T08:18:15 - [MESSAGE][PASSED] - Navigate to 'https://advantageonlineshopping.com/#/product/6' successfully
+
+12-02-2024T08:18:15 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Transactions/Page_Advantage Shopping/button_ADD TO CART")): Object: 'Object Repository/Transactions/Page_Advantage Shopping/button_ADD TO CART' is clicked on
+
+12-02-2024T08:18:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Transactions/Page_Advantage Shopping/button_ADD TO CART' is clicked on
+
+12-02-2024T08:18:18 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Transactions/Page_Advantage Shopping/button_CHECKOUT  (1,279.00)")): Object: 'Object Repository/Transactions/Page_Advantage Shopping/button_CHECKOUT  (1,279.00)' is clicked on
+
+12-02-2024T08:18:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Transactions/Page_Advantage Shopping/button_CHECKOUT  (1,279.00)' is clicked on
+
+12-02-2024T08:18:19 - [TEST_STEP][PASSED] - verifyTextPresent("Already have an account?", false): Text 'Already have an account?' is present on page 
+
+12-02-2024T08:18:20 - [MESSAGE][PASSED] - Text 'Already have an account?' is present on page 
+
+12-02-2024T08:18:20 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+12-02-2024T08:18:20 - [MESSAGE][PASSED] - Browser is closed
+
+12-02-2024T08:18:22 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/transaction/Checkout Without Login or Signup' .
+
+12-02-2024T08:18:22 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/transaction/Checkout Without Login or Signup' .]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[12-02-2024T08:15:51 - [TEST_SUITE][PASSED] - Checkout: Test Cases/transaction/Checkout Without Login or Signup]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
